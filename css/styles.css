@@ -33,3 +33,7 @@
       background-attachment: scroll;
     }
   }
+
+body {
+    text-align: center;
+}
