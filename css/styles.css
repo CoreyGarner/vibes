@@ -1,0 +1,6 @@
+.container-fluid-nav div{
+    display: flex;
+  justify-content: space-around;
+}
+
+  /* Logo Colors #9600FF #FF00B8 */
