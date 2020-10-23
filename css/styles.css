@@ -5,9 +5,10 @@
 
   /* Logo Colors #9600FF #FF00B8 */
 
-  .logo {
-      padding-top: 5%;
-      height: 500px;
+  .responsive {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
   }
 
   body, html {
