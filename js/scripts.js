@@ -26,3 +26,7 @@ function resize_parallax(div_id, img_w, img_h) {
     newheight = newheight + 'px';
     div.height(newheight);
 }
+
+$(".img-fluid").addClass("wow fadeIn z-depth-1-half");
+
+new WOW().init();
