@@ -79,7 +79,7 @@ body {
 }
 .footer-links li
 {
-  display:inline
+  display:block
 }
 .footer-links a
 {
