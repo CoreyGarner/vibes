@@ -79,7 +79,7 @@ body {
 }
 .footer-links li
 {
-  display:block
+  display:inline
 }
 .footer-links a
 {
@@ -96,7 +96,7 @@ body {
 }
 .site-footer .social-icons
 {
-  text-align:center
+  text-align:
 }
 .site-footer .social-icons a
 {
@@ -116,7 +116,7 @@ body {
 {
   .site-footer [class^=col-]
   {
-    margin-bottom:30px
+    margin-bottom:30px;
   }
 }
 @media (max-width:767px)
