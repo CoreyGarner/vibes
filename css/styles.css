@@ -31,6 +31,36 @@
     }
 }
 
+.parallax_img2 {
+  height: 500px;
+  background-image: url("../images/bar.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media screen and (max-width: 768px) {
+  .parallax_img2 {
+      background-attachment: inherit;
+  }
+}
+
+.parallax_img3 {
+  height: 500px;
+  background-image: url("../images/people.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media screen and (max-width: 768px) {
+  .parallax_img3 {
+      background-attachment: inherit;
+  }
+}
+
 body {
     text-align: center;
     
@@ -44,6 +74,11 @@ body {
 
 .padding {
   padding: 3%;
+}
+
+img {
+  width: 100%;
+  height: 100%;
 }
 
 .img-shadow {
